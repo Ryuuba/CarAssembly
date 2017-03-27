@@ -1,6 +1,5 @@
 #include <chrono>
 #include <thread>
-#include <mutex>
 #include <iostream>
 #include <string>
 #include <sstream>
@@ -8,7 +7,6 @@
 #define NUM_OF_STAGES 5
 
 using std::thread;
-using std::mutex;
 using std::chrono::system_clock;
 using std::chrono::microseconds;
 using std::chrono::seconds;
